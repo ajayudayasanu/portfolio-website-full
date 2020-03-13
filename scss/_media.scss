@@ -129,6 +129,16 @@
       height: 5rem;
     }
   }
+
+  //youtube player
+  #youtube {
+    iframe {
+      margin: 0 auto;
+      width: 295px;
+      height: 215px;
+      text-align: center;
+    }
+  }
 }
 
 // Landscape
@@ -146,6 +156,15 @@
       h1 {
         font-size: 2rem;
       }
+    }
+  }
+
+  #youtube {
+    iframe {
+      margin: 0 auto;
+      width: 320px;
+      height: 260px;
+      text-align: center;
     }
   }
 }

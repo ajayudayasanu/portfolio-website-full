@@ -357,9 +357,25 @@ img {
   &-c {
     h1 {
       text-align: center;
-      font-size: 4rem;
+      font-size: 3rem;
     }
   }
+}
+
+//youtube player
+#youtube {
+  iframe {
+    margin: 0 auto;
+    width: 900px;
+    height: 460px;
+    text-align: center;
+  }
+}
+
+//download resume
+#download-resume {
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
 // Footer
@@ -387,6 +403,10 @@ img {
       &:hover {
         background: $main-color;
       }
+    }
+
+    a {
+      color: #fff;
     }
   }
 }
