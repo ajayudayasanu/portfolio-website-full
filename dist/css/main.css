@@ -439,7 +439,8 @@ img {
     #main-nav li {
       padding: 1rem; }
   #header-home {
-    height: 10rem;
+    height: 20rem;
+    background: url("../img/showcase.jpg") no-repeat right top/cover;
     border-bottom: 3px solid #ffbc00;
     background-position: 20% 30%; }
     #header-home .header-content {
@@ -451,6 +452,7 @@ img {
   #home-c .process,
   #about-d .testimonials,
   #contact-b .contact-info,
+  #about-c .about-logos,
   .items {
     grid-template-columns: 1fr; }
   #home-a .specials div {
@@ -463,8 +465,6 @@ img {
     padding: 2rem 0 1rem 0; }
   #about-a .about-info {
     grid-template-areas: 'bioimage' 'bio' 'aw1' 'aw2' 'aw3'; }
-  #about-c {
-    display: none; }
   #contact-a .text-fields {
     grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
   #contact-b div {
@@ -487,15 +487,23 @@ img {
     margin: 0 auto;
     width: 295px;
     height: 215px;
-    text-align: center; } }
+    text-align: center; }
+  #about-c .about-logos img {
+    height: 50px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 0.5rem; } }
 
 @media (max-height: 580px) {
   #header-home .header-content {
     padding-top: 3rem; } }
 
-@media (max-height: 330px) {
-  #header-home .header-content h1 {
-    font-size: 2rem; }
+@media (max-width: 330) and (max-height: 570) {
+  #header-home {
+    height: 10rem; }
+    #header-home .header-content h1 {
+      font-size: 2rem; }
   #youtube iframe {
     margin: 0 auto;
     width: 320px;

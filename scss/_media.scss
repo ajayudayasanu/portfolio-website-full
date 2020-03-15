@@ -22,7 +22,8 @@
 
   #header {
     &-home {
-      height: 10rem;
+      height: 20rem;
+      background: $bg-image no-repeat right top / cover;
       border-bottom: 3px solid $main-color;
       background-position: 20% 30%;
 
@@ -42,6 +43,7 @@
   #home-c .process,
   #about-d .testimonials,
   #contact-b .contact-info,
+  #about-c .about-logos,
   .items {
     grid-template-columns: 1fr;
   }
@@ -78,10 +80,6 @@
           'aw2'
           'aw3';
       }
-    }
-
-    &-c {
-      display: none;
     }
   }
 
@@ -139,6 +137,18 @@
       text-align: center;
     }
   }
+
+  // Logos
+
+  #about-c .about-logos {
+    img {
+      height: 50px;
+      width: 70%;
+      text-align: center;
+      margin: 0 auto;
+      padding-bottom: 0.5rem;
+    }
+  }
 }
 
 // Landscape
@@ -150,8 +160,10 @@
   }
 }
 
-@media (max-height: 330px) {
+// iphone 5
+@media (max-width: 330) and (max-height: 570) {
   #header-home {
+    height: 10rem;
     .header-content {
       h1 {
         font-size: 2rem;
