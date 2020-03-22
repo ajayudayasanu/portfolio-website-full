@@ -13,7 +13,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #ffbc00; }
+  background-color: #f4a889; }
 
 .btn-light {
   color: #333;
@@ -26,11 +26,11 @@
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background-color: #ffbc00; }
+  background-color: #f4a889; }
 
 .bg-main {
-  background: #ffbc00;
-  color: #fff; }
+  background: #f4a889;
+  color: #000; }
 
 .bg-dark {
   background: #333;
@@ -86,7 +86,7 @@ input[class^='btn-']:hover {
 .bottom-line {
   height: 2px;
   width: 3rem;
-  background: #ffbc00;
+  background: #f4a889;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -97,7 +97,7 @@ input[class^='btn-']:hover {
 
 .item {
   position: relative;
-  background: #ffbc00;
+  background: #f4a889;
   overflow: hidden; }
   .item::after {
     content: '';
@@ -213,7 +213,7 @@ img {
     #main-nav a:hover {
       border-color: #ccc; }
     #main-nav a.current {
-      border-color: #ffbc00; }
+      border-color: #f4a889; }
 
 #header-home {
   background: url("../img/showcase.jpg") no-repeat center top/cover;
@@ -229,7 +229,7 @@ img {
 #header-inner {
   background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
-  border-bottom: 3px solid #ffbc00; }
+  border-bottom: 3px solid #f4a889; }
 
 #home-a .specials {
   margin-top: 3rem;
@@ -238,7 +238,7 @@ img {
   grid-template-columns: repeat(4, 1fr); }
   #home-a .specials .fas,
   #home-a .specials .fab {
-    color: #ffbc00;
+    color: #f4a889;
     padding-bottom: 0.4rem; }
 
 #home-b .stats {
@@ -268,8 +268,8 @@ img {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #ffbc00;
-    color: #fff;
+    background: #f4a889;
+    color: #000;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -288,7 +288,7 @@ img {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: #ffbc00;
+      background: #f4a889;
       width: 90px;
       height: 90px;
       line-height: 90px; }
@@ -306,7 +306,7 @@ img {
 
 #about-a .bio {
   grid-area: bio;
-  border-left: 3px solid #ffbc00;
+  border-left: 3px solid #f4a889;
   padding: 0.8rem; }
 
 #about-a .award-1 {
@@ -321,7 +321,7 @@ img {
 #about-a .award-1 .fas,
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
-  color: #ffbc00;
+  color: #f4a889;
   margin: 1rem; }
 
 #about-b .progress {
@@ -334,7 +334,7 @@ img {
     height: 100%;
     color: #fff;
     text-align: center;
-    background: #ffbc00; }
+    background: #f4a889; }
 
 #about-c .about-logos {
   display: grid;
@@ -395,9 +395,10 @@ img {
 
 #youtube iframe {
   margin: 0 auto;
-  width: 900px;
-  height: 460px;
-  text-align: center; }
+  width: 1000px;
+  height: 490px;
+  text-align: center;
+  padding-bottom: 2rem; }
 
 #download-resume {
   text-align: center;
@@ -422,7 +423,7 @@ img {
       text-align: center;
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
-        background: #ffbc00; }
+        background: #f4a889; }
     #main-footer .footer-content a {
       color: #fff; }
 
@@ -441,7 +442,7 @@ img {
   #header-home {
     height: 20rem;
     background: url("../img/showcase.jpg") no-repeat right top/cover;
-    border-bottom: 3px solid #ffbc00;
+    border-bottom: 3px solid #f4a889;
     background-position: 20% 30%; }
     #header-home .header-content {
       display: none; }
